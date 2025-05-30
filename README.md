@@ -21,5 +21,8 @@ Ejecuta el programa con el siguiente comando:
 
 node nombrearchivo.js
 Resultado esperado:
-Verás mensajes en consola mostrando cómo se insertan tareas con prioridad.
+Verás mensajes en consola mostrando cómo se insertan tareas con prioridad.  
+const heap = new MinHeap();
+insertRandomTasksToHeap(heap, 5);
+
 
